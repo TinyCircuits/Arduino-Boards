@@ -1,0 +1,775 @@
+{
+  "packages": [
+        {
+      "name": "TinyCircuits",
+      "maintainer": "TinyCircuits",
+      "websiteURL": "https://tinycircuits.com",
+      "email": "info@tinycircuits.com",
+      "help": {
+        "online": "forum.tinycircuits.com"
+      },
+      "platforms": [
+        {
+          "name": "TinyCircuits AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "forum.tinycircuits.com"
+          },
+          "url": "http://files.tinycircuits.com/ArduinoBoards/tinycircuits-avr-1.0.0.zip",
+          "archiveFileName": "tinycircuits-avr-1.0.0.zip",
+          "checksum": "SHA-256:EA845E72BAA03C39479C99B336F48D76543B70708F31AC8FF7A33B692514AFCF",
+          "size": "137545",
+          "boards": [
+            {"name": "TinySaber Rev2"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "TinyCircuits",
+              "name": "micronucleus",
+              "version": "2.0a4"
+            }
+          ]
+        }
+      ],
+      "tools":[
+            {
+             "name": "micronucleus",
+             "version": "2.0a4",
+             "systems": [
+               {
+                 "host": "x86_64-apple-darwin",
+                 "archiveFileName": "micronucleus-2.0a4-osx.tar.gz",
+                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-osx.tar.gz",
+                 "checksum": "SHA-256:B5EB0C7B251CD88F4816186BB931855834141E71A28D90FB9E46788E483AA421",
+                 "size": "51203"
+               },
+               {
+                 "host": "i686-mingw32",
+                 "archiveFileName": "micronucleus-2.0a4-win.zip",
+                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-win.zip",
+                 "checksum": "SHA-256:7027971118FDE88484AACB5D8CA7867D66E273839EC3B2592616829317BB70E4",
+                 "size": "1712005"
+               },
+               {
+                 "host": "i686-linux-gnu",
+                 "archiveFileName": "micronucleus-2.0a4-linux32.tar.gz",
+                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux32.tar.gz",
+                 "checksum": "SHA-256:0D4286388EED28D1ECB29AFE81253F24F54D4F0A5C1B2C17507EABD504C595F8",
+                 "size": "21909"
+               },
+               {
+                 "host": "x86_64-linux-gnu",
+                 "archiveFileName": "micronucleus-2.0a4-linux64.tar.gz",
+                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux64.tar.gz",
+                 "checksum": "SHA-256:1F545C0BB60E85A604901C2D7044772AC91776594C209C571DFEDAD4A70195B8",
+                 "size": "22874"
+               }
+
+             ]
+           }
+      ]
+    },
+        {
+      "name": "TinyCircuits",
+      "maintainer": "TinyCircuits",
+      "websiteURL": "https://tinycircuits.com",
+      "email": "info@tinycircuits.com",
+      "help": {
+        "online": "forum.tinycircuits.com"
+      },
+      "platforms": [
+        {
+          "name": "TinyCircuits SAMD Boards",
+          "architecture": "samd",
+          "version": "1.1.0",
+          "category": "Contributed",
+          "help": {
+            "online": "forum.tinycircuits.com"
+          },
+          "url": "http://files.tinycircuits.com/ArduinoBoards/tinycircuits-samd-1.1.0.zip",
+          "archiveFileName": "tinycircuits-samd-1.1.0.zip",
+          "checksum": "SHA-256:C18502A8AC9BD4298FEC876B7D14C72B66D308B56DB4D3A0E7E833EFD9D03341",
+          "size": "1175661",
+          "boards": [
+            {"name": "TinyScreen+"},
+            {"name": "TinyArcade"},
+            {"name": "TinyZero"},
+            {"name": "WirelingZero"},
+            {"name": "RobotZero"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    },
+        {
+      "name": "TinyCircuits",
+      "maintainer": "TinyCircuits",
+      "websiteURL": "https://tinycircuits.com",
+      "email": "info@tinycircuits.com",
+      "help": {
+        "online": "forum.tinycircuits.com"
+      },
+      "platforms": [
+        {
+          "name": "TinyCircuits SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.8",
+          "category": "Contributed",
+          "help": {
+            "online": "forum.tinycircuits.com"
+          },
+          "url": "http://files.tinycircuits.com/ArduinoBoards/tinycircuits-samd-1.0.8.zip",
+          "archiveFileName": "tinycircuits-samd-1.0.8.zip",
+          "checksum": "SHA-256:2AB14CF340D7EFE92E302CAFE59C047D45E02B6ADE0CFA9E7D6ACD6D1D48190D",
+          "size": "844912",
+          "boards": [
+            {"name": "TinyScreen+"},
+            {"name": "TinyArcade"},
+            {"name": "TinyZero"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    },
+        {
+      "name": "TinyCircuits",
+      "maintainer": "TinyCircuits",
+      "websiteURL": "https://tinycircuits.com",
+      "email": "info@tinycircuits.com",
+      "help": {
+        "online": "forum.tinycircuits.com"
+      },
+      "platforms": [
+        {
+          "name": "TinyCircuits SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.7",
+          "category": "Contributed",
+          "help": {
+            "online": "forum.tinycircuits.com"
+          },
+          "url": "http://files.tinycircuits.com/ArduinoBoards/tinycircuits-samd-1.0.7.zip",
+          "archiveFileName": "tinycircuits-samd-1.0.7.zip",
+          "checksum": "SHA-256:1DDA72D750FB75084FA69F8576F64AB78E64E39DC20C03C1FABB61BDF232AAF9",
+          "size": "702757",
+          "boards": [
+            {"name": "TinyScreen+"},
+            {"name": "TinyArcade"},
+            {"name": "TinyZero"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    },
+        {
+      "name": "TinyCircuits",
+      "maintainer": "TinyCircuits",
+      "websiteURL": "https://tinycircuits.com",
+      "email": "info@tinycircuits.com",
+      "help": {
+        "online": "forum.tinycircuits.com"
+      },
+      "platforms": [
+        {
+          "name": "TinyCircuits SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.6",
+          "category": "Contributed",
+          "help": {
+            "online": "forum.tinycircuits.com"
+          },
+          "url": "http://files.tinycircuits.com/ArduinoBoards/tinycircuits-samd-1.0.6.zip",
+          "archiveFileName": "tinycircuits-samd-1.0.6.zip",
+          "checksum": "SHA-256:9C92B8A0DA6C1D9010D5B77935500554CA7BE27F9094172F86D27C82A67FBAC1",
+          "size": "712739",
+          "boards": [
+            {"name": "TinyScreen+"},
+            {"name": "TinyArcade"},
+            {"name": "TinyZero"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    },
+        {
+      "name": "TinyCircuits",
+      "maintainer": "TinyCircuits",
+      "websiteURL": "https://tinycircuits.com",
+      "email": "info@tinycircuits.com",
+      "help": {
+        "online": "forum.tinycircuits.com"
+      },
+      "platforms": [
+        {
+          "name": "TinyCircuits SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.5",
+          "category": "Contributed",
+          "help": {
+            "online": "forum.tinycircuits.com"
+          },
+          "url": "http://files.tinycircuits.com/ArduinoBoards/tinycircuits-samd-1.0.5.zip",
+          "archiveFileName": "tinycircuits-samd-1.0.5.zip",
+          "checksum": "SHA-256:E95397EDA3354C5645CD6396D795C8664E96EFEFE533531EB589CEF103422E9A",
+          "size": "712582",
+          "boards": [
+            {"name": "TinyScreen+"},
+            {"name": "TinyZero"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    },
+        {
+      "name": "TinyCircuits",
+      "maintainer": "TinyCircuits",
+      "websiteURL": "https://tinycircuits.com",
+      "email": "info@tinycircuits.com",
+      "help": {
+        "online": "forum.tinycircuits.com"
+      },
+      "platforms": [
+        {
+          "name": "TinyCircuits SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.4",
+          "category": "Contributed",
+          "help": {
+            "online": "forum.tinycircuits.com"
+          },
+          "url": "http://files.tinycircuits.com/ArduinoBoards/tinycircuits-samd-1.0.4.zip",
+          "archiveFileName": "tinycircuits-samd-1.0.4.zip",
+          "checksum": "SHA-256:B404CC3DA5AEDFB00226CB913C88B85740FF9C64D231A8F4BB31FE3E3DBF6BD5",
+          "size": "712396",
+          "boards": [
+            {"name": "TinyScreen+"},
+            {"name": "TinyZero"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    },
+        {
+      "name": "TinyCircuits",
+      "maintainer": "TinyCircuits",
+      "websiteURL": "https://tinycircuits.com",
+      "email": "info@tinycircuits.com",
+      "help": {
+        "online": "forum.tinycircuits.com"
+      },
+      "platforms": [
+        {
+          "name": "TinyCircuits SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.3",
+          "category": "Contributed",
+          "help": {
+            "online": "forum.tinycircuits.com"
+          },
+          "url": "http://files.tinycircuits.com/ArduinoBoards/tinycircuits-samd-1.0.3.zip",
+          "archiveFileName": "tinycircuits-samd-1.0.3.zip",
+          "checksum": "SHA-256:1C620887390739CE9D235C5B0357062AA84CBEA606C7F42191BE3B05A9851B86",
+          "size": "470992",
+          "boards": [
+            {"name": "TinyScreen+"},
+            {"name": "TinyZero"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    },
+      {
+      "name": "TinyCircuits",
+      "maintainer": "TinyCircuits",
+      "websiteURL": "https://tinycircuits.com",
+      "email": "info@tinycircuits.com",
+      "help": {
+        "online": "forum.tinycircuits.com"
+      },
+      "platforms": [
+        {
+          "name": "TinyCircuits SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.2",
+          "category": "Contributed",
+          "help": {
+            "online": "forum.tinycircuits.com"
+          },
+          "url": "http://files.tinycircuits.com/ArduinoBoards/tinycircuits-samd-1.0.2.zip",
+          "archiveFileName": "tinycircuits-samd-1.0.2.zip",
+          "checksum": "SHA-256:2A532C826B0E1FF5FB5D9588B7E9379000E2865CC485EC53599CA5868105D8C2",
+          "size": "470861",
+          "boards": [
+            {"name": "TinyScreen+"},
+            {"name": "TinyZero"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    },
+    {
+      "name": "TinyCircuits",
+      "maintainer": "TinyCircuits",
+      "websiteURL": "https://tinycircuits.com",
+      "email": "info@tinycircuits.com",
+      "help": {
+        "online": "forum.tinycircuits.com"
+      },
+      "platforms": [
+        {
+          "name": "TinyCircuits SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": "forum.tinycircuits.com"
+          },
+          "url": "http://files.tinycircuits.com/ArduinoBoards/tinycircuits-samd-1.0.1.zip",
+          "archiveFileName": "tinycircuits-samd-1.0.1.zip",
+          "checksum": "SHA-256:5480A63F683CD45CD08B189982D5C406C9903A83ED217581150D60C293B913DE",
+          "size": "466123",
+          "boards": [
+            {"name": "TinyScreen+"},
+            {"name": "TinyScreen+ (Compile for Menu)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    },
+    {
+      "name": "TinyCircuits",
+      "maintainer": "TinyCircuits",
+      "websiteURL": "https://tinycircuits.com",
+      "email": "info@tinycircuits.com",
+      "help": {
+        "online": "forum.tinycircuits.com"
+      },
+      "platforms": [
+        {
+          "name": "TinyCircuits SAMD Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "forum.tinycircuits.com"
+          },
+          "url": "http://files.tinycircuits.com/ArduinoBoards/tinycircuits-samd-1.0.0.zip",
+          "archiveFileName": "tinycircuits-samd-1.0.0.zip",
+          "checksum": "SHA-256:5AF6F1DA3407E9F4B07D8FF58C6C2C1BDE24F04B7AD0218DFE819757B6DA7545",
+          "size": "466022",
+          "boards": [
+            {"name": "TinyScreen+"},
+            {"name": "TinyScreen+ (Compile for Menu)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        }
+      ],
+      "tools":[
+      ]
+    },
+
+
+
+
+  @todo - add tinylily ble
+
+    {
+      "name": "TinyCircuits",
+      "maintainer": "TinyCircuits",
+      "websiteURL": "https://tinycircuits.com",
+      "email": "info@tinycircuits.com",
+      "help": {
+        "online": "forum.tinycircuits.com"
+      },
+      "platforms": [
+        {
+          "name": "TinyCircuits nRF52 Boards",
+          "architecture": "nRF5",
+          "version": "0.1.0",
+          "category": "Contributed",
+          "help": {
+            "online": "forum.tinycircuits.com"
+          },
+          // "url": "http://files.tinycircuits.com/ArduinoBoards/tinycircuits-avr-1.0.0.zip",
+          // "archiveFileName": "tinycircuits-avr-1.0.0.zip",
+          // "checksum": "SHA-256:EA845E72BAA03C39479C99B336F48D76543B70708F31AC8FF7A33B692514AFCF",
+          // "size": "137545",
+          "boards": [
+            {"name": "TinyLily BLE"}
+          ],
+          "toolsDependencies": [   @todo
+            {
+              "packager": "sandeepmistry",
+              "name": "gcc-arm-none-eabi",
+              "version": "5_2-2015q4"
+            },
+            {
+              "packager": "sandeepmistry",
+              "name": "openocd",
+              "version": "0.10.0-dev.nrf5"
+            },
+            {
+              "packager": "SparkFun", 
+              "name": "nrfutil",
+              "version": "0.5.2-SFE"
+            }
+          ]
+        }
+      ],
+      "tools":[
+        "name": "gcc-arm-none-eabi",
+        "version": "5_2-2015q4",
+        "systems": [
+          {
+            "host": "i386-apple-darwin11",
+            "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+            "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-mac.tar.bz2",
+            "size": "96372129",
+            "checksum": "MD5:603bcce8e59683ac27054b3197a53254"
+          },
+          {
+            "host": "i686-linux-gnu",
+            "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+            "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+            "size": "92811866",
+            "checksum": "MD5:f88caac80b4444a17344f57ccb760b90"
+          },
+          {
+            "host": "x86_64-pc-linux-gnu",
+            "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+            "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-linux.tar.bz2",
+            "size": "92811866",
+            "checksum": "MD5:f88caac80b4444a17344f57ccb760b90"
+          },
+          {
+            "host": "i686-mingw32",
+            "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+            "archiveFileName": "gcc-arm-none-eabi-5_2-2015q4-20151219-win32.tar.bz2",
+            "size": "102981732",
+            "checksum": "MD5:32d950225b6c7c886f6225c1fc578934"
+          }
+        ]
+      },
+      {
+        "name": "openocd",
+        "version": "0.10.0-dev.nrf5",
+        "systems": [
+          {
+            "host": "i386-apple-darwin11",
+            "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-osx-0.10.0-dev-nrf5.tar.gz",
+            "archiveFileName": "openocd-osx-0.10.0-dev-nrf5.tar.gz",
+            "size": "1345243",
+            "checksum": "MD5:3ffaa4e7cd4b96770eec65002c5959e3"
+          },
+          {
+            "host": "i686-linux-gnu",
+            "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-linux32-0.10.0-dev-nrf5.tar.gz",
+            "archiveFileName": "openocd-linux32-0.10.0-dev-nrf5.tar.gz",
+            "size": "3585042",
+            "checksum": "MD5:02b3f4a3004cae86631bf13837c84504"
+          },
+          {
+            "host": "x86_64-pc-linux-gnu",
+            "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-linux32-0.10.0-dev-nrf5.tar.gz",
+            "archiveFileName": "openocd-linux32-0.10.0-dev-nrf5.tar.gz",
+            "size": "3585042",
+            "checksum": "MD5:02b3f4a3004cae86631bf13837c84504"
+          },
+          {
+            "host": "i686-mingw32",
+            "url": "https://github.com/sandeepmistry/arduino-nRF5/releases/download/tools/openocd-win32-0.10.0-dev-nrf5.tar.gz",
+            "archiveFileName": "openocd-win32-0.10.0-dev-nrf5.tar.gz",
+            "size": "5498373",
+            "checksum": "MD5:3acd3b08afda2bb09e75a0de5ac7c3cd"
+          }
+        ]
+      },
+      {
+        "name": "nrfutil",
+        "version": "0.5.2-SFE",
+        "systems": [
+          {
+            "host": "i386-apple-darwin11",
+            "url": "https://cdn.sparkfun.com/assets/learn_tutorials/5/4/9/nrfutil-src-0.5.2-SFE-mac.tar.bz2",
+            "archiveFileName": "nrfutil-src-0.5.2-SFE-mac.tar.bz2",
+            "size": "11327272",
+            "checksum": "SHA-256:4c695c1acc82f1b1adedc1de05d09694c576ad3dba7da713b848cd1c93426773"
+          },
+          {
+            "host": "i686-linux-gnu",
+            "url": "https://cdn.sparkfun.com/assets/learn_tutorials/5/4/9/nrfutil-src-0.5.2-SFE-linux64.tar.bz2",
+            "archiveFileName": "nrfutil-src-0.5.2-SFE-linux64.tar.bz2",
+            "size": "11555072",
+            "checksum": "SHA-256:96d8a733a0136e6cd372c64c70b1f663dc29566562de6bf0467896fbf5d2b0a3"
+          },
+          {
+            "host": "x86_64-pc-linux-gnu",
+            "url": "https://cdn.sparkfun.com/assets/learn_tutorials/5/4/9/nrfutil-src-0.5.2-SFE-linux64.tar.bz2",
+            "archiveFileName": "nrfutil-src-0.5.2-SFE-linux64.tar.bz2",
+            "size": "11555072",
+            "checksum": "SHA-256:96d8a733a0136e6cd372c64c70b1f663dc29566562de6bf0467896fbf5d2b0a3"
+          },
+          {
+            "host": "i686-mingw32",
+            "url": "https://cdn.sparkfun.com/assets/learn_tutorials/5/4/9/nrfutil-src-0.5.2-SFE-windows.tar.bz2",
+            "archiveFileName": "nrfutil-src-0.5.2-SFE-windows.tar.bz2",
+            "size": "11746447",
+            "checksum": "SHA-256:84d78202970a33e40711bf40a97fcfee02bc7462419d6c9026529afd0c9b2f4a"
+          }
+        ]
+      }
+      ]
+    }
+
+  ]
+}
