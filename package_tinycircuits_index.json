@@ -634,7 +634,7 @@
           "help": {
             "online": "forum.tinycircuits.com"
           },
-          "url": "https://github.com/TinyCircuits/Arduino-Boards/Packages/tinycircuits-nrf52-1.0.0.zip", 
+          "url": "https://github.com/TinyCircuits/Arduino-Boards/raw/main/Packages/tinycircuits-nrf52-1.0.0.zip", 
           "archiveFileName": "tinycircuits-nrf52-1.0.0.zip",
           "checksum": "SHA-256:976A156AA1ECCFF663DD8955B0BBFB058455E18D84264D2BBB1CC201D6B41132",
           "size": "703840",
