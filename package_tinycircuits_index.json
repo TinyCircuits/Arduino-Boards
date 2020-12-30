@@ -629,7 +629,7 @@
         {
           "name": "TinyCircuits nRF52 Boards",
           "architecture": "nRF5",
-          "version": "0.1.0",
+          "version": "1.0.0",
           "category": "Contributed",
           "help": {
             "online": "forum.tinycircuits.com"
