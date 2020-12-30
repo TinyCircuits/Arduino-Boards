@@ -617,12 +617,6 @@
       "tools":[
       ]
     },
-
-
-
-
-  @todo - add tinylily ble
-
     {
       "name": "TinyCircuits",
       "maintainer": "TinyCircuits",
@@ -640,14 +634,14 @@
           "help": {
             "online": "forum.tinycircuits.com"
           },
-          // "url": "http://files.tinycircuits.com/ArduinoBoards/tinycircuits-avr-1.0.0.zip",
-          // "archiveFileName": "tinycircuits-avr-1.0.0.zip",
-          // "checksum": "SHA-256:EA845E72BAA03C39479C99B336F48D76543B70708F31AC8FF7A33B692514AFCF",
-          // "size": "137545",
+          "url": "https://github.com/TinyCircuits/Arduino-Boards/Packages/tinycircuits-nrf52-1.0.0.zip", 
+          "archiveFileName": "tinycircuits-nrf52-1.0.0.zip",
+          "checksum": "SHA-256:976A156AA1ECCFF663DD8955B0BBFB058455E18D84264D2BBB1CC201D6B41132",
+          "size": "703840",
           "boards": [
             {"name": "TinyLily BLE"}
           ],
-          "toolsDependencies": [   @todo
+          "toolsDependencies": [
             {
               "packager": "sandeepmistry",
               "name": "gcc-arm-none-eabi",
@@ -667,6 +661,7 @@
         }
       ],
       "tools":[
+        {
         "name": "gcc-arm-none-eabi",
         "version": "5_2-2015q4",
         "systems": [
@@ -768,8 +763,7 @@
           }
         ]
       }
-      ]
+     ]
     }
-
   ]
 }
