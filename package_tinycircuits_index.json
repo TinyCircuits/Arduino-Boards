@@ -643,17 +643,17 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "sandeepmistry",
+              "packager": "TinyCircuits",
               "name": "gcc-arm-none-eabi",
               "version": "5_2-2015q4"
             },
             {
-              "packager": "sandeepmistry",
+              "packager": "TinyCircuits",
               "name": "openocd",
               "version": "0.10.0-dev.nrf5"
             },
             {
-              "packager": "SparkFun", 
+              "packager": "TinyCircuits", 
               "name": "nrfutil",
               "version": "0.5.2-SFE"
             }
