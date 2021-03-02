@@ -636,8 +636,8 @@
           },
           "url": "https://github.com/TinyCircuits/Arduino-Boards/raw/main/Packages/tinycircuits-nrf52-1.0.0.zip", 
           "archiveFileName": "tinycircuits-nrf52-1.0.0.zip",
-          "checksum": "SHA-256:BED4314D0FA538B4A81D17AE6A129168B7319BD0CE692B1C60AD3A1EB0329B7C",
-          "size": "712548",
+          "checksum": "SHA-256:F68C4DF8B1203A7D737C4313BCA2DF388ABC0055F4755807576CE50AB12C80EE",
+          "size": "1679677",
           "boards": [
             {"name": "TinyLily BLE"}
           ],
